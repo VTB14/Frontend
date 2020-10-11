@@ -1,0 +1,37 @@
+.container{
+  background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.container h2{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  margin-top: 20px;
+}
+.content{
+  display: flex;
+  background-color: #fff;
+  width: 1000px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.menu{
+  width: 30%;
+  border-right: 1px solid #000000;
+  height: 60vh;
+}
+.menu div{
+  width: 100%;
+  height: 80px;
+  background-color: #003B72;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
